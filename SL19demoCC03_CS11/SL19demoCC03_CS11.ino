@@ -1,7 +1,8 @@
-#include <xCore.h>
-#include <xOD01.h>
+#include <xCore.h> //find @ https://github.com/xinabox/xCore
+#include <xOD01.h> //find @ https://github.com/xinabox/xOD01
+#include <ESP8266WiFi.h>
 #include "TIMER_CTRL.h"
-#include <xSL19.h>
+#include <xSL19.h> //find @ https://github.com/xinabox/xSL19
 
 #if defined(ESP8266)
 #define RED   RED
